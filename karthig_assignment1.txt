@@ -1,0 +1,24 @@
+-sh-4.2$                                                                                                 
+-sh-4.2$                                                                                                 
+-sh-4.2$                                                                                                 
+-sh-4.2$ nano hello.txt                                                                                  
+-sh-4.2$ chmod 777 hello.txt                                                                             
+-sh-4.2$ ls -lrt                                                                                         
+total 4                                                                                                  
+-rwxrwxrwx. 1 karthig karthig 6 Jan 29 16:04 hello.txt
+-sh-4.2$ mkdir -p dir1/dir2                                                                              
+-sh-4.2$ mv hello.txt dir1/dir2/                                                                         
+-sh-4.2$ ln -s dir1/dir2/hello.txt dir1/hello_link                                                       
+-sh-4.2$ ls -l dir1                                                                                      
+total 0                                                                                                  
+drwxrwxr-x. 2 karthig karthig 23 Jan 29 16:05 dir2
+lrwxrwxrwx. 1 karthig karthig 19 Jan 29 16:05 hello_link -> dir1/dir2/hello.txt
+-sh-4.2$ ps aux                                                                                          
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND                                 
+karthig  19960  0.0  0.0 115692  3780 pts/188  Ss   16:04   0:00 -sh                                     
+karthig  20603  0.0  0.0 155460  3996 pts/188  R+   16:08   0:00 ps aux                                  
+-sh-4.2$ ls -lt dir1/dir2 > sorted.txt                                                                   
+-sh-4.2$ cat sorted.txt                                                                                  
+total 4                                                                                                  
+-rwxrwxrwx. 1 karthig karthig 6 Jan 29 16:04 hello.txt                                                   
+-sh-4.2$  

@@ -1,6 +1,6 @@
 total 4
--rw-rw-r-- 1 sanjay sanjay    0 Jan 29 22:08 file1
--rw-rw-r-- 1 sanjay sanjay    0 Jan 29 22:08 file2
--rw-rw-r-- 1 sanjay sanjay    0 Jan 29 22:08 file3
-lrwxrwxrwx 1 sanjay sanjay   21 Jan 29 22:03 q3_softlink.txt -> dir1/dir2/q3_test.txt
-drwxrwxr-x 2 sanjay sanjay 4096 Jan 29 22:03 dir2
+-rw-rw-r-- 1 karthig karthig    0 Jan 29 22:08 file1
+-rw-rw-r-- 1 karthig karthig    0 Jan 29 22:08 file2
+-rw-rw-r-- 1 karthig karthig    0 Jan 29 22:08 file3
+lrwxrwxrwx 1 karthig karthig   21 Jan 29 22:03 q3_softlink.txt -> dir1/dir2/q3_test.txt
+drwxrwxr-x 2 karthig karthig 4096 Jan 29 22:03 dir2
